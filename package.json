@@ -1,0 +1,40 @@
+{
+  "name": "officeworks-candidate-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "1.5.0",
+    "aws-sdk": "2.713.0",
+    "axios": "^0.19.2",
+    "body-parser": "1.19.0",
+    "dateformat": "1.0.12",
+    "express": "4.17.1",
+    "express-winston": "2.6.0",
+    "faker": "^4.1.0",
+    "lokijs": "^1.5.1",
+    "mocha-teamcity-reporter": "1.1.1",
+    "moment": "2.19.4",
+    "redis": "2.6.3",
+    "underscore": "1.8.3",
+    "winston": "2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yjimk@bitbucket.org/yjimk/officeworks-candidate-test.git"
+  },
+  "author": "officeworks",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/yjimk/officeworks-candidate-test#readme"
+}
